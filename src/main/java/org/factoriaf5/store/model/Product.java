@@ -17,4 +17,10 @@ public class Product {
         return price;
     }
 
+    Product = new
+    Product(3.3,"Papas") {
+
+    }
+
+    Person person2 = new Person(27, "Ana");
 }

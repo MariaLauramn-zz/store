@@ -12,16 +12,16 @@ import java.util.List;
 
 @RestController
 
-public class ProductController<json, application> {
+public class ProductController {
 
     private List<Product> products;
 
         public ProductController() {products = new ArrayList<>();}
 
-    @GetMapping("/health")
-    public List<Product> AllProduct() {return products;}
+    @GetMapping("/products")
+            public List<Product> AllProduct() {return products;}
 
-    @PostMapping("/health")
+    @PostMapping("/products")
     public RedirectView addProduct(Product products) {
         products.getName(products);
         products.getPrice(products);
