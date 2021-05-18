@@ -9,16 +9,12 @@ public class Product {
         this.price= price;
     }
 
-        public String getName(Product products) {
-        return name;
-    }
+        public String getName(Product products) {return name;}
 
-    public int getPrice(Product products) {
-        return price;
-    }
+    public int getPrice(Product products) {return price;}
 
     {
 
-    }
+}
 
 }
