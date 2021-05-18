@@ -1,1 +1,8 @@
+POST http://localhost:8080/products
+Content-Type: application/x-www-form-urlencoded
 
+name=zapatos&price=20
+
+###
+GET http://localhost:8080/products
+Accept: application/json
