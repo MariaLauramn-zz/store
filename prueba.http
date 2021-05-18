@@ -7,5 +7,5 @@ name=pantalon&price=3.20
 GET https://store-maria.herokuapp.com/products
 Accept: application/json
 
-###
+
 
