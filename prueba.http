@@ -1,8 +1,11 @@
-POST http://localhost:8080/products
+POST https://store-maria.herokuapp.com/products
 Content-Type: application/x-www-form-urlencoded
 
-name=zapatos&price=20
+name=pantalon&price=3.20
 
 ###
-GET http://localhost:8080/products
+GET https://store-maria.herokuapp.com/products
 Accept: application/json
+
+###
+

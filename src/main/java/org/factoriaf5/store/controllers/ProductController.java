@@ -14,15 +14,13 @@ import java.util.List;
 
 public class ProductController {
 
-    private List<Product> products;
-
-        public ProductController() {products = new ArrayList<>();}
+    private List<Product> products = new ArrayList<>();
 
     @GetMapping("/products")
             public List<Product> AllProduct() {return products;}
 
     @PostMapping("/products")
-    public void addProduct(Product product) {
+    public void addProduct(Product product){
         products.add(product);
     }
 }
