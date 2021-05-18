@@ -3,6 +3,7 @@ package org.factoriaf5.store.controllers;
 import jdk.jfr.ContentType;
 import org.factoriaf5.store.model.Product;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,3 +25,4 @@ public class ProductController {
         products.add(product);
     }
 }
+

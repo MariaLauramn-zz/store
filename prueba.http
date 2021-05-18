@@ -1,11 +1,12 @@
 POST https://store-maria.herokuapp.com/products
 Content-Type: application/x-www-form-urlencoded
 
-name=pantalon&price=3.20
+name=zapatos&price=40.50
 
 ###
 GET https://store-maria.herokuapp.com/products
 Accept: application/json
+
 
 
 
