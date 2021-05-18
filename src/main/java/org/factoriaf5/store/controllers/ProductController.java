@@ -16,9 +16,7 @@ public class ProductController {
 
     private List<Product> products;
 
-        public ProductController() {
-
-            products = List.of(new Product("tomates",1));}
+        public ProductController() {products = new ArrayList<>();}
 
     @GetMapping("/products")
             public List<Product> AllProduct() {return products;}
