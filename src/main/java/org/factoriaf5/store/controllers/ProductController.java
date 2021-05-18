@@ -22,9 +22,7 @@ public class ProductController {
             public List<Product> AllProduct() {return products;}
 
     @PostMapping("/products")
-    public RedirectView addProduct(Product products) {
-        products.getName(products);
-        products.getPrice(products);
-        return new RedirectView("/");
+    public void addProduct(Product product) {
+        products.add(product);
     }
 }
