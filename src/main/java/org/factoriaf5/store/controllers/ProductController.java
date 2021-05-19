@@ -18,11 +18,13 @@ public class ProductController {
     private List<Product> products = new ArrayList<>();
 
     @GetMapping("/products")
-            public List<Product> AllProduct() {return products;}
+        public List<Product> AllProduct() {return products;}
 
     @PostMapping("/products")
-    public void addProduct(Product product){
-        products.add(product);
-    }
+        public void addProduct(Product product){products.add(product);}
+
+
+
 }
+
 
